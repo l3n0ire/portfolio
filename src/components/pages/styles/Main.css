@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri|Playfair+Display|Roboto&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-feature-settings: "liga" 0, "clig" 0;
+     -moz-font-feature-settings: "liga" 0, "clig" 0;
+          font-feature-settings: "liga" 0, "clig" 0;
+  line-height: 1.4;
+  background-color: #f6f6f6;
+}
+.myContainer{
+  padding: 3vh 8vw;
+  padding-bottom: 10vh;
+  line-height: 2.5em;
+}
+.myContainer h1{
+  font-size: 3em;
+  margin: 0.75em 0;
+  font-family: 'Hind Siliguri', sans-serif;
+
+}
+.myContainer p{
+  font-size: 1.3em;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.welcome-container{
+  height:100vh;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/winningteam.jpg');
+  background-size: cover;
+  display : flex;
+  align-items : center;
+  justify-content: center;
+}
+.welcome-container h1{
+  color:white;
+  font-size: 3em;
+}
+.box-row{
+  grid-auto-rows: 1fr  
+}
+.box{
+  margin-bottom: 2em;
+  background-color: #fff;
+}
+
+
+.box img{
+  padding:1.5em;
+
+  width:100%;
+  margin:0;
+  max-height: 80vh;
+}
+.box-text{
+  margin:-1em 0;
+  padding:1.5em;
+  padding-bottom: 3em;
+}
+.box-text h1{
+  font-size: 2em;
+  margin-top:0;
+  margin-bottom:0.5em;
+}
+.box-text p{
+  font-size: 1.3em;
+}
+
+.linky {
+  text-decoration: none;
+  color: black;
+}
+.linky:hover{
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (min-width: 768px) {
+  .box{
+    margin-right: 1vw;
+  }
+  .welcome-container h1{
+    font-size: 4em;
+  }
+
+}
+@media only screen and (min-width: 1025px) {
+  .welcome-container h1{
+    font-size: 8em;
+  }
+  .box-row{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap:2vw
+  }
+  .box{
+    margin:0
+  }
+  .box:hover{
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.2s;
+  }
+  .box h1{
+    font-size: 2em;
+  
+  }
+  .box img{
+    padding:1em;
+
+    width:100%;
+  }
+  .box-text{
+    margin:0;
+    padding:1em;
+  }
+  .box-text h1{
+    font-size: 2em;
+    margin-top:0;
+  
+  }
+  
+
+}
