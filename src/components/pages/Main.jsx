@@ -7,6 +7,12 @@ import physicsPlaygroundU from './images/physicsPlaygroundU.png'
 import guide from './images/guide.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons'
+import{faCoffee,faDesktop,faServer, faMobileAlt, faPhone, faMapMarkerAlt, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import {Button} from 'reactstrap'
+
 
 class Index extends Component{
 
@@ -20,14 +26,96 @@ class Index extends Component{
 
         <div className="myContainer">
             <h1>Who am I?</h1>
-            <p>
-                We’re a group with a strong passion for making projects that end with the letter U. Winning team works on a series of random
-                projects which will hopefully let us win some hackatons. Our goal is to explore new tools and technologies with
-                the hope of creating something that will statisfy our boredom and something to put on our resumes. Winning team's mission
-                is to win a hackaton, but more importantly we strive to build software that benifits the lives of other and that aligns with
-                the interest of all team members
+        <div class="profileContainer">
+            <div class="profileCard">
+                <img src="https://www.w3schools.com/w3images/team2.jpg" alt="oops"></img>
+                <div class="profileCardBody">
+                <h1>Colin Lin</h1>
+                <p>Web Developer</p>
+                <p>University of Toronto</p>
+                <div class="profileIcons">
+                    <a rel="noopener noreferrer" target='_blank' href="https://google.ca"> <FontAwesomeIcon icon={faFacebook} size='2x'/></a>
+                    <a rel="noopener noreferrer" target='_blank' href="https://google.ca"><FontAwesomeIcon icon={faLinkedin} size='2x'/></a> 
+                    <a rel="noopener noreferrer" target='_blank' href="https://google.ca"><FontAwesomeIcon icon={faGithub} size='2x' /></a>
+                </div>
+                <div class='contactInfo'>
+                    <div class='line'>
+                        <FontAwesomeIcon icon={faPhone} flip="horizontal" size='2x' />
+                        <p>416-666-6666</p>
+                    </div>
+                    <div class='line'>
+                        <FontAwesomeIcon icon={faMapMarkerAlt} flip="horizontal" size='2x' />
+                        <p>Toronto, On</p>
+                    </div>
+                    <div class='line'>
+                        <FontAwesomeIcon icon={faEnvelope} flip="horizontal" size='2x' />
+                        <p style={{fontSize:'1em'}}>colin.lin@mail.utoronto.ca</p>
+                    </div>
+                </div>
+                <Button>View Resume</Button>
+                </div>
+            </div>
+            <div class="profileAboutCard">
+                <div class="aboutHeader">
+                <h1>About Me</h1>
+                <div class='aboutUnderline'></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat alias fugit velit possimus sequi totam maiores ut dolorem itaque inventore sed ea consequatur corrupti minima libero, beatae doloribus quae.</p>
+                </div>
+                
+                <div class="aboutBody">
+                    <h1>What I'm doing</h1>
+                    <div class="aboutBodyGrid">
 
-            </p>
+                        <div class="aboutBodyBox">
+                            <div class='aboutBodyBoxHead'>
+                                <FontAwesomeIcon icon={faDesktop} size='3x' />
+                                <div class='aboutBodyBoxText'>
+                                    <h4>Web App Development</h4>
+                                    <p>Able to create modern and responsive web apps using HTML CSS and JS </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="aboutBodyBox">
+                            <div class='aboutBodyBoxHead'>
+                                <FontAwesomeIcon icon={faCoffee} size='3x' />
+                                <div class='aboutBodyBoxText'>
+                                    <h4>API Integration</h4>
+                                    <p>Able to create modern and responsive web apps using HTML CSS and JS </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="aboutBodyBox">
+                            <div class='aboutBodyBoxHead'>
+                                <FontAwesomeIcon icon={faServer} size='3x' />
+                                <div class='aboutBodyBoxText'>
+                                    <h4>Backend API</h4>
+                                    <p>Able to create modern and responsive web apps using HTML CSS and JS </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="aboutBodyBox">
+                            <div class='aboutBodyBoxHead'>
+                                <FontAwesomeIcon icon={faMobileAlt} size='3x' />
+                                <div class='aboutBodyBoxText'>
+                                    <h4>Mobile App Development</h4>
+                                    <p>Able to create modern and responsive web apps using HTML CSS and JS </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
 
             
          

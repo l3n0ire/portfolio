@@ -122,6 +122,129 @@ body{
     margin-top:0;
   
   }
+  .profileContainer{
+    display:flex;
+  }
+  .profileCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 20vw;
+    text-align: center;
+  }
+  .profileCard h1{
+    margin:0;
+    font-size:2.5em;
+
+  }
+  .profileCardBody{
+    padding:1em 0;
+    height:65%
+  }
+  .profileCard img{
+    width:100%;
+    height:30%
+
+
+  }
+  .profileCard p{
+    margin-bottom:0
+  }
+  .profileIcons{
+    padding-top:0.5em
+  }
+  .profileIcons a{
+    color:inherit
+  }
+  .profileIcons a:hover{
+    color:inherit
+  }
+  .profileIcons a:visited{
+    color:inherit
+  }
+  .contactInfo{
+    background-color:#f6f6f6;
+    padding:0.5em 0;
+    height:45%;
+    width:100%;
+    margin-bottom: 1em;
+  }
+  .profileIcons svg{
+    margin-right: 0.5em;
+  }
+  .profileAboutCard{
+    box-shadow: 0 2px 12px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    flex:1;
+    margin-left:3vw;
+
+  }
+  .aboutHeader{
+    width:100%;
+    height:30%;
+    padding:1.5em;
+    text-align:start
+  }
+  .aboutHeader h1{
+    margin:0;
+    font-size:2em;
+    font-weight: bolder;
+
+  }
+  .aboutUnderline{
+    padding-bottom: 0.75em;
+    width:3vw;
+    border-bottom: #333 solid 4px;
+    margin-bottom: 1em;
+  }
+  .aboutBody{
+    background-color:#f6f6f6;
+    width:100%;
+    height:70%;
+    padding:1.5em;
+    text-align:start
+  }
+  .aboutBody h1{
+    margin:0;
+    font-size:1.75em;
+    font-weight: bolder;
+  }
+  .aboutBodyGrid{
+    margin-top:1.5em;
+    display:grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap:2vw  
+  }
+  .aboutBodyBox{
+    background-color: white;
+    padding:1em
+  }
+  .aboutBodyBoxHead{
+    display:flex;
+  }
+  .aboutBodyBoxHead svg{
+    height:100%
+  }
+  .aboutBodyBoxText {
+    padding-left:1em
+  }
+  .aboutBodyBoxText h4{
+    font-weight:bolder
+  }
+
+  .aboutBodyBoxText p{
+    font-size:1.2em;
+    line-height: 1.5em;
+  }
+  .line{
+    display:flex;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  .line p {
+    margin-left:1em;
+    width:60%;
+    text-align:left
+  }
+
   
 
 }
