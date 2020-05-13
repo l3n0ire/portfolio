@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 import {Fragment} from 'react';
 
 import './styles/Main.css'
-import cookingU from './images/cookingU.png'
-import physicsPlaygroundU from './images/physicsPlaygroundU.png'
-import guide from './images/guide.jpg'
+import courierU from './images/courierU.png'
+import successStories from './images/successStories.png'
+import tftutsc from './images/tftutsc.png'
+import timetableBuilder from './images/ttb.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons'
 import{faCoffee,faDesktop,faServer, faMobileAlt, faPhone, faMapMarkerAlt, faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import {Button} from 'reactstrap'
-
+import resume from './images/RESUME.pdf'
+import profilePic from'./images/profilePic.jpg'
 
 class Index extends Component{
 
@@ -20,7 +20,7 @@ class Index extends Component{
     return (
         <Fragment>
         <div className="welcome-container">
-          <h1>Portfolio Page</h1>
+          <h1>My Portfolio</h1>
         </div>
         
 
@@ -28,80 +28,84 @@ class Index extends Component{
             <h1>Who am I?</h1>
         <div class="profileContainer">
             <div class="profileCard">
-                <img src="https://www.w3schools.com/w3images/team2.jpg" alt="oops"></img>
+                <img src={profilePic} alt="oops"></img>
                 <div class="profileCardBody">
                 <h1>Colin Lin</h1>
                 <p>Web Developer</p>
-                <p>University of Toronto</p>
+                <p>Co-op Computer Science University of Toronto</p>
                 <div class="profileIcons">
-                    <a rel="noopener noreferrer" target='_blank' href="https://google.ca"> <FontAwesomeIcon icon={faFacebook} size='2x'/></a>
-                    <a rel="noopener noreferrer" target='_blank' href="https://google.ca"><FontAwesomeIcon icon={faLinkedin} size='2x'/></a> 
-                    <a rel="noopener noreferrer" target='_blank' href="https://google.ca"><FontAwesomeIcon icon={faGithub} size='2x' /></a>
+                    <a rel="noopener noreferrer" target='_blank' href="https://www.facebook.com/colincool100"> <FontAwesomeIcon color= '#3b5998' icon={faFacebook} size='2x'/></a>
+                    <a rel="noopener noreferrer" target='_blank' href="https://www.linkedin.com/in/colin-lin-2001/"><FontAwesomeIcon color='#2867B2' icon={faLinkedin} size='2x'/></a> 
+                    <a rel="noopener noreferrer" target='_blank' href="https://github.com/l3n0ire"><FontAwesomeIcon icon={faGithub} size='2x' /></a>
                 </div>
                 <div class='contactInfo'>
                     <div class='line'>
-                        <FontAwesomeIcon icon={faPhone} flip="horizontal" size='2x' />
-                        <p>416-666-6666</p>
+                        <FontAwesomeIcon  icon={faPhone} flip="horizontal" size='2x' />
+                        <p>647-470-9183</p>
                     </div>
                     <div class='line'>
-                        <FontAwesomeIcon icon={faMapMarkerAlt} flip="horizontal" size='2x' />
+                        <FontAwesomeIcon  icon={faMapMarkerAlt} flip="horizontal" size='2x' />
                         <p>Toronto, On</p>
                     </div>
                     <div class='line'>
-                        <FontAwesomeIcon icon={faEnvelope} flip="horizontal" size='2x' />
+                        <FontAwesomeIcon  icon={faEnvelope} flip="horizontal" size='2x' />
                         <p style={{fontSize:'1em'}}>colin.lin@mail.utoronto.ca</p>
                     </div>
                 </div>
-                <Button>View Resume</Button>
+                <a href={resume} rel="noopener noreferrer" target='_blank'class="btn btn-primary">View Resume</a>
                 </div>
             </div>
             <div class="profileAboutCard">
                 <div class="aboutHeader">
                 <h1>About Me</h1>
                 <div class='aboutUnderline'></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius fugiat alias fugit velit possimus sequi totam maiores ut dolorem itaque inventore sed ea consequatur corrupti minima libero, beatae doloribus quae.</p>
+                <p>Hi, my name is Colin. I'm an aspiring web developer with experience in both frontend UX design and backend API development. 
+                   I descibe myself as someone who is ambitious, a quick learner, and has a passion for developing software with a positive social impact.
+                </p>
                 </div>
                 
                 <div class="aboutBody">
-                    <h1>What I'm doing</h1>
+                    <h1>My Skillset</h1>
                     <div class="aboutBodyGrid">
 
                         <div class="aboutBodyBox">
                             <div class='aboutBodyBoxHead'>
-                                <FontAwesomeIcon icon={faDesktop} size='3x' />
+                                <FontAwesomeIcon color='#7b82de'  icon={faDesktop} size='3x' />
                                 <div class='aboutBodyBoxText'>
                                     <h4>Web App Development</h4>
-                                    <p>Able to create modern and responsive web apps using HTML CSS and JS </p>
+                                    <p>Able to create modern and responsive web apps using HTML, CSS , Javascript, and ReactJS </p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="aboutBodyBox">
                             <div class='aboutBodyBoxHead'>
-                                <FontAwesomeIcon icon={faCoffee} size='3x' />
+                                <FontAwesomeIcon color='#7b82de' icon={faCoffee} size='3x' />
                                 <div class='aboutBodyBoxText'>
                                     <h4>API Integration</h4>
-                                    <p>Able to create modern and responsive web apps using HTML CSS and JS </p>
+                                    <p>Familiar with integrating REStful web services and APIs such as MapBox API and Google Cloud
+                                        with frontend applications 
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="aboutBodyBox">
                             <div class='aboutBodyBoxHead'>
-                                <FontAwesomeIcon icon={faServer} size='3x' />
+                                <FontAwesomeIcon color='#7b82de'  icon={faServer} size='3x' />
                                 <div class='aboutBodyBoxText'>
                                     <h4>Backend API</h4>
-                                    <p>Able to create modern and responsive web apps using HTML CSS and JS </p>
+                                    <p>Experience setting up Databases and developing backend APIs for fullstack applications </p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="aboutBodyBox">
                             <div class='aboutBodyBoxHead'>
-                                <FontAwesomeIcon icon={faMobileAlt} size='3x' />
+                                <FontAwesomeIcon color='#7b82de'  icon={faMobileAlt} size='3x' />
                                 <div class='aboutBodyBoxText'>
                                     <h4>Mobile App Development</h4>
-                                    <p>Able to create modern and responsive web apps using HTML CSS and JS </p>
+                                    <p>Developed mobile applications with backend integration using React Native and Android Studio </p>
                                 </div>
                             </div>
                         </div>
@@ -125,40 +129,84 @@ class Index extends Component{
 
 
             <div className="box-row">
-                <a className="linky"  rel="noopener noreferrer" target='_blank' href='https://cookingu.netlify.app/'>
                     <div className="box">
-                        <img src={cookingU} alt="oops"/>
+                        <img src={courierU} alt="oops"/>
                         <div className="box-text">
-                            <p>
-                                Platform to help students to learn how to cook.<br/>
-                                Large selection of quick and<br/> easy-to-learn recipes
-                            </p>
-                        </div>
-                    </div>
-                </a>
-                <a className="linky" rel="noopener noreferrer" target ="_blank" href='https://physicsplaygroundu.netlify.app/'>
-                    <div className="box">
-                        <img src={physicsPlaygroundU} alt="oops"/>
-                        <div className="box-text">
-                            <p>
-                                Physics simulator to help highschool students visualize physics labs.<br/>
-                                Variety of interactive labs and learning tools to experiment with.
-                            </p>
-                        </div>
-                    </div>
-                </a>
-                <a className="linky" href="/">
-                    <div className="box">
-                        <img src={guide} alt="oops"/>
-                        <div className="box-text">
-                            <p>
-                                We don't know what this game will be yet.<br/>
-                                So far, its just a bunch of spheres and cubes flying around
+                            <h1>CourierU</h1>
+                            <div class='tags'>
+                                <a href='/' class='btn btn-light'>HTML CSS JS</a>
+                                <a href='/' class='btn btn-light'>NodeJS</a>
+                                <a href='/' class='btn btn-light'>MongoDB</a>
+                                <a href='/' class='btn btn-light'>Mapbox API</a>
+                                <a href='/' class='btn btn-light'>Bootstrap</a>
 
+                                <a href='/' class='btn btn-light'>ExpressJS</a>
+                            </div>
+                            <p>
+                                Service for foodbanks to coordinate deliveries during the
+                                COVID-19 pandemic while maintaing social distancing
                             </p>
+                            <div class ='btnPair'>
+                                <a rel="noopener noreferrer" target='_blank' href='https://courieru.herokuapp.com/' class ='btn btn-primary'>View Demo</a>
+                                <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/courieru' class ='btn btn-secondary'>View Code</a>
+                            </div>
                         </div>
                     </div>
-                </a>
+                    <div className="box">
+                        <img src={successStories} alt="oops"/>
+                        <div className="box-text">
+                        <h1>Success Stories of New Canadians</h1>
+                        <div class='tags'>
+                                <a href='/' class='btn btn-light'>HTML CSS JS</a>
+                                <a href='/' class='btn btn-light'>ReactJS</a>
+                                <a href='/' class='btn btn-light'>GraphQL</a>
+                                <a href='/' class='btn btn-light'>Netlify CMS</a>
+                        </div>
+                            <p>
+                                Platform for new immigrants to read about and share their experiences of coming to Canada
+                            </p>
+                            <div class ='btnPair'>
+                                <a rel="noopener noreferrer" target='_blank' href='https://success-stories-of-new-canadians.netlify.app/' class ='btn btn-primary'>View Demo</a>
+                                <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/PEAR-Impact-Project' class ='btn btn-secondary'>View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="box">
+                        <img src={tftutsc} alt="oops"/>
+                        <div className="box-text">
+                            <h1>Teamfight UTSC</h1>
+                            <div class='tags'>
+                                <a href='/' class='btn btn-light'>HTML CSS JS</a>
+                                <a href='/' class='btn btn-light'>ReactJS</a>
+                            </div>
+                            <p>
+                                Website promoting the tournaments and socials for the Teamfight UTSC club
+                                as well as tutorials for beginners
+                            </p>
+                            <div class ='btnPair'>
+                                <a rel="noopener noreferrer" target='_blank' href='https://tftutsc.netlify.app/' class ='btn btn-primary'>View Demo</a>
+                                <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/TFT_UTSC' class ='btn btn-secondary'>View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="box">
+                        <img src={timetableBuilder} alt="oops"/>
+                        <div className="box-text">
+                            <h1>Timetable Builder</h1>
+                            <div class='tags'>
+                                <a href='/' class='btn btn-light'>HTML CSS JS</a>
+                                <a href='/' class='btn btn-light'>jQuery</a>
+                                <a href='/' class='btn btn-light'>Bootstrap</a>
+                            </div>
+                            <p>
+                                Platform to help students plan out and visualize their courseload for upcoming semesters
+                            </p>
+                            <div class ='btnPair'>
+                                <a rel="noopener noreferrer" target='_blank' href='https://l3n0ire.github.io/TimetableBuilder/index.html' class ='btn btn-primary'>View Demo</a>
+                                <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/TimetableBuilder' class ='btn btn-secondary'>View Code</a>
+                            </div>
+                        </div>
+                    </div>
             </div>
 
         </div>

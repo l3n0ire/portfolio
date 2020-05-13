@@ -2,6 +2,8 @@ import React from 'react';
 import {Fragment} from 'react';
 import './Footer.css'
 import {Link} from 'react-router-dom';
+import resume from '../pages/images/RESUME.pdf'
+
 
 function Footer() {
     return (
@@ -9,21 +11,20 @@ function Footer() {
             <footer>
                 <div class="footer-container">
                 <div className="box-left">
-                    <h1>Winning Team</h1>
+                    <h1>Colin Lin</h1>
                     <p>
-                    1265 Military Trail <br/>
+                    125 Highhill Drive <br/>
                     Toronto, ON <br/>
-                    M1C 1A4
+                    M1T 1N8
                     </p>
-                    <p><br/>[insert social media] </p>
                     <br/>
-                    <p>&copy; Winning Team {(new Date().getFullYear())}</p>
+                    <p>&copy; Colin Lin {(new Date().getFullYear())}</p>
                 </div>
                 <div className="box-right">
                     <h1>Links</h1>
                     <ul>
                         <li><Link className="link-style" to='/'>Home</Link></li>
-                        <li><Link className="link-style" to='/about'>About</Link></li>
+                        <li><a rel="noopener noreferrer" className="link-style" href={resume} target='_blank'>Resume</a></li>
                         <li><Link className="link-style" to='/contact'>Contact</Link></li>
 
 

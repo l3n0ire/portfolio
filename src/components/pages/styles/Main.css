@@ -30,7 +30,7 @@ body{
 .welcome-container{
   height:100vh;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/winningteam.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://thumbs.gfycat.com/DependentLiquidHeron-size_restricted.gif');
   background-size: cover;
   display : flex;
   align-items : center;
@@ -40,6 +40,8 @@ body{
   color:white;
   font-size: 3em;
 }
+
+
 .box-row{
   grid-auto-rows: 1fr  
 }
@@ -51,6 +53,7 @@ body{
 
 .box img{
   padding:1.5em;
+  padding-bottom:0;
 
   width:100%;
   margin:0;
@@ -63,11 +66,12 @@ body{
 }
 .box-text h1{
   font-size: 2em;
-  margin-top:0;
-  margin-bottom:0.5em;
+  font-weight: bolder;
+  margin-bottom:0.5em 0;
 }
 .box-text p{
   font-size: 1.3em;
+  line-height: 1.8em;
 }
 
 .linky {
@@ -79,12 +83,150 @@ body{
   color: black;
 }
 
+.profileContainer{
+}
+.profileCard{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.profileCard h1{
+  margin:0;
+  font-size:2.5em;
+
+}
+.profileCardBody{
+  padding:1em 0;
+  height:65%
+}
+.profileCard img{
+  width:100%;
+  height:30%
+
+
+}
+.profileCard p{
+  margin-bottom:0
+}
+.profileIcons{
+  padding-top:0.5em
+}
+.profileIcons a{
+  color:inherit
+}
+.profileIcons a:hover{
+  color:inherit
+}
+.profileIcons a:visited{
+  color:inherit
+}
+.contactInfo{
+  background-color:#f6f6f6;
+  padding:0.5em 0;
+  height:45%;
+  width:100%;
+  margin-bottom: 1em;
+}
+.profileIcons svg{
+  margin-right: 0.5em;
+}
+
+
+.profileAboutCard{
+  box-shadow: 0 2px 12px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  flex:1;
+  margin-top:3vh;
+
+}
+.aboutHeader{
+  width:100%;
+  height:30%;
+  padding:1.5em;
+  text-align:start
+}
+.aboutHeader h1{
+  margin:0;
+  font-size:2em;
+  font-weight: bolder;
+
+}
+.aboutUnderline{
+  padding-bottom: 0.75em;
+  width:8vw;
+  border-bottom: #7b82de solid 4px;
+  margin-bottom: 1em;
+}
+.aboutBody{
+  background-color:#f6f6f6;
+  width:100%;
+  height:70%;
+  padding:1.5em;
+  text-align:start
+}
+.aboutBody h1{
+  margin:0;
+  font-size:1.75em;
+  font-weight: bolder;
+}
+.aboutBodyGrid{
+  margin-top:1.5em;
+  
+}
+.aboutBodyBox{
+  background-color: white;
+  padding:1em;
+  margin-top:1em;
+}
+.aboutBodyBoxHead{
+  display:flex;
+}
+.aboutBodyBoxHead svg{
+  height:100%
+}
+.aboutBodyBoxText {
+  padding-left:1em
+}
+.aboutBodyBoxText h4{
+  font-weight:bolder
+}
+
+.aboutBodyBoxText p{
+  font-size:1.2em;
+  line-height: 1.5em;
+}
+.line{
+  display:flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+.line p {
+  margin-left:1em;
+  width:60%;
+  text-align:left
+}
+.btnPair a{
+  margin-right:1em;
+
+}
+
+.tags a{
+  margin-right:1em;
+  margin-bottom: 0.5em;
+
+
+
+}
+
 @media only screen and (min-width: 768px) {
   .box{
     margin-right: 1vw;
   }
   .welcome-container h1{
     font-size: 4em;
+  }
+  .profileCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
   }
 
 }
@@ -110,6 +252,7 @@ body{
   }
   .box img{
     padding:1em;
+    padding-bottom:0;
 
     width:100%;
   }
@@ -119,7 +262,7 @@ body{
   }
   .box-text h1{
     font-size: 2em;
-    margin-top:0;
+    margin:0.2em 0;
   
   }
   .profileContainer{
@@ -130,82 +273,13 @@ body{
     max-width: 20vw;
     text-align: center;
   }
-  .profileCard h1{
-    margin:0;
-    font-size:2.5em;
-
-  }
-  .profileCardBody{
-    padding:1em 0;
-    height:65%
-  }
-  .profileCard img{
-    width:100%;
-    height:30%
-
-
-  }
-  .profileCard p{
-    margin-bottom:0
-  }
-  .profileIcons{
-    padding-top:0.5em
-  }
-  .profileIcons a{
-    color:inherit
-  }
-  .profileIcons a:hover{
-    color:inherit
-  }
-  .profileIcons a:visited{
-    color:inherit
-  }
-  .contactInfo{
-    background-color:#f6f6f6;
-    padding:0.5em 0;
-    height:45%;
-    width:100%;
-    margin-bottom: 1em;
-  }
-  .profileIcons svg{
-    margin-right: 0.5em;
-  }
   .profileAboutCard{
     box-shadow: 0 2px 12px 0px rgba(0, 0, 0, 0.2);
     text-align: center;
     flex:1;
     margin-left:3vw;
-
-  }
-  .aboutHeader{
-    width:100%;
-    height:30%;
-    padding:1.5em;
-    text-align:start
-  }
-  .aboutHeader h1{
-    margin:0;
-    font-size:2em;
-    font-weight: bolder;
-
-  }
-  .aboutUnderline{
-    padding-bottom: 0.75em;
-    width:3vw;
-    border-bottom: #333 solid 4px;
-    margin-bottom: 1em;
-  }
-  .aboutBody{
-    background-color:#f6f6f6;
-    width:100%;
-    height:70%;
-    padding:1.5em;
-    text-align:start
-  }
-  .aboutBody h1{
-    margin:0;
-    font-size:1.75em;
-    font-weight: bolder;
+    margin-top:0;
+  
   }
   .aboutBodyGrid{
     margin-top:1.5em;
@@ -214,36 +288,17 @@ body{
     gap:2vw  
   }
   .aboutBodyBox{
-    background-color: white;
-    padding:1em
+    
+    margin-top:0em;
   }
-  .aboutBodyBoxHead{
-    display:flex;
+  .aboutUnderline{
+    padding-bottom: 0.75em;
+    width:3vw;
+    border-bottom: #7b82de solid 4px;
+    margin-bottom: 1em;
   }
-  .aboutBodyBoxHead svg{
-    height:100%
-  }
-  .aboutBodyBoxText {
-    padding-left:1em
-  }
-  .aboutBodyBoxText h4{
-    font-weight:bolder
-  }
+  
 
-  .aboutBodyBoxText p{
-    font-size:1.2em;
-    line-height: 1.5em;
-  }
-  .line{
-    display:flex;
-    justify-content: center;
-    margin-top: 1em;
-  }
-  .line p {
-    margin-left:1em;
-    width:60%;
-    text-align:left
-  }
 
   
 

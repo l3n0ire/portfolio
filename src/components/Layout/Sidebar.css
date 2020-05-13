@@ -162,5 +162,18 @@ body {
     font-size: 1.5em;
     font-weight: 700;
     flex-basis: 50%;
+    margin-top:5em;
+    margin-left:2em;
+}
+@media only screen and (min-width: 1025px) {
+  .title{
+    color:#fff;
+    text-decoration:none;
+    font-size: 1.5em;
+    font-weight: 700;
+    flex-basis: 50%;
+    margin-top:0em;
+    margin-left:0em;
+}
 }
 

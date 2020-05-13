@@ -8,7 +8,7 @@ export default function Sidebar(props) {
     return (     
       <div style={{'display': props.display}}>
         <header style={{'background': props.colour}}>
-          <Link className="title" to="/" style={{'display': props.textdisplay}}>Teamfight <span style={{'color': props.accent}}>UTSC</span></Link>
+          <Link className="title" to="/" style={{'display': props.textdisplay}}>Colin Lin's <span style={{'color': props.accent}}>Profile</span></Link>
         </header>  
         <div class="menu-wrap" >
           <input type="checkbox" class="toggler"/>

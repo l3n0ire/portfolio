@@ -27,7 +27,7 @@ class App extends Component {
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
   componentDidMount() {
-    document.title = 'Winning Team';
+    document.title = 'Colin\'s Portfolio';
     this.updateWindowDimensions();
     window.addEventListener('scroll', this.listenScrollEvent)
     window.addEventListener('resize', this.updateWindowDimensions);
