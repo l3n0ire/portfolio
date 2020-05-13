@@ -1,6 +1,7 @@
 import React from 'react'
 import './Sidebar.css';
 import {Link} from 'react-router-dom';
+import resume from '../pages/images/RESUME.pdf'
 
 
 
@@ -17,10 +18,9 @@ export default function Sidebar(props) {
                 <div>
                   <div>
                     <ul>
-                      <li> <Link className="link-style" to='/'>Home</Link></li>
-                      <li><Link className="link-style" to='/about'>About</Link></li>
-                      <li><Link className="link-style" to='/tournaments'>Tournaments</Link></li>
-                      <li><Link className="link-style" to='/googlevision'>Google Vision</Link></li>
+                    <li><Link className="link-style" to='/'>Home</Link></li>
+                    <li><a rel="noopener noreferrer" className="link-style" href={resume} target='_blank'>Resume</a></li>
+                    <li><Link className="link-style" to='/contact'>Contact</Link></li>
                     </ul>
                   </div>
                 </div>

@@ -88,6 +88,7 @@ body{
 .profileCard{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
+  padding:1em
 }
 .profileCard h1{
   margin:0;
@@ -272,6 +273,8 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 20vw;
     text-align: center;
+    padding:0em
+
   }
   .profileAboutCard{
     box-shadow: 0 2px 12px 0px rgba(0, 0, 0, 0.2);
