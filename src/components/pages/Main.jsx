@@ -199,7 +199,7 @@ class Index extends Component{
                                 <a href='/' className='btn btn-light'>Bootstrap</a>
                             </div>
                             <p>
-                                Platform to help students plan out and visualize their courseload for upcoming semesters
+                                Platform to help students plan out and visualize their course load for upcoming semesters
                             </p>
                             <div className ='btnPair'>
                                 <a rel="noopener noreferrer" target='_blank' href='https://l3n0ire.github.io/TimetableBuilder/index.html' className ='btn btn-primary'>View Demo</a>
