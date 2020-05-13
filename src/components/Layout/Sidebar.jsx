@@ -11,10 +11,10 @@ export default function Sidebar(props) {
         <header style={{'background': props.colour}}>
           <Link className="title" to="/" style={{'display': props.textdisplay}}>Colin Lin's <span style={{'color': props.accent}}>Profile</span></Link>
         </header>  
-        <div class="menu-wrap" >
-          <input type="checkbox" class="toggler"/>
-            <div class="hamburger"><div></div></div>
-              <div class="menu">
+        <div className="menu-wrap" >
+          <input type="checkbox" className="toggler"/>
+            <div className="hamburger"><div></div></div>
+              <div className="menu">
                 <div>
                   <div>
                     <ul>

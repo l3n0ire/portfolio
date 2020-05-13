@@ -9,7 +9,7 @@ function Footer() {
     return (
         <Fragment>
             <footer>
-                <div class="footer-container">
+                <div className="footer-container">
                 <div className="box-left">
                     <h1>Colin Lin</h1>
                     <p>
