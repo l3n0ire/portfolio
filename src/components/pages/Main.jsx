@@ -60,7 +60,7 @@ class Index extends Component{
                 <h1>About Me</h1>
                 <div className='aboutUnderline'></div>
                 <p>Hi, my name is Colin. I'm an aspiring web developer with experience in both frontend UX design and backend API development. 
-                   I descibe myself as someone who is ambitious, a quick learner, and has a passion for developing software with a positive social impact.
+                   I describe myself as someone who is ambitious, a quick learner, and has a passion for developing software with a positive social impact.
                 </p>
                 </div>
                 
