@@ -12,3 +12,17 @@
     font-size: 1.1em;
     margin-right: 0.25em;
 }
+.contactRow{
+    display:flex;
+    margin-bottom:2em;
+}
+.contactIcon{
+    flex:1;
+}
+
+.contactText{
+    flex:20;
+    margin-top:auto;
+    margin-left:1em;
+
+}

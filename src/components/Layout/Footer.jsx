@@ -14,8 +14,8 @@ function Footer() {
                     <h1>Colin Lin</h1>
                     <p>
                     125 Highhill Drive <br/>
-                    Toronto, ON <br/>
-                    M1T 1N8
+                    Toronto, Ontario <br/>
+                    M1T 1N8 Canada
                     </p>
                     <br/>
                     <p>&copy; Colin Lin {(new Date().getFullYear())}</p>
