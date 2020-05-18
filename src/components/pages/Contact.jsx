@@ -3,7 +3,7 @@ import {Fragment} from 'react';
 import './styles/Contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons'
-import{faIdCard,faDesktop,faServer, faMobileAlt, faPhone, faMapMarkerAlt, faEnvelope, faMailBulk} from '@fortawesome/free-solid-svg-icons'
+import{faIdCard, faPhone, faMapMarkerAlt, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 
 function Contact() {
