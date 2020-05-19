@@ -163,6 +163,8 @@ body {
     font-weight: 700;
     flex-basis: 50%;
     margin-left:2em;
+    display:block;
+    margin-top:0.4em;
 }
 @media only screen and (min-width: 1025px) {
   .title{

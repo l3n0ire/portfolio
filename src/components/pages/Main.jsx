@@ -34,9 +34,9 @@ class Index extends Component{
                 <p>Web Developer</p>
                 <p>Co-op Computer Science University of Toronto</p>
                 <div className="profileIcons">
-                    <a rel="noopener noreferrer" target='_blank' href="https://www.facebook.com/colincool100"> <FontAwesomeIcon color= '#3b5998' icon={faFacebook} size='2x'/></a>
-                    <a rel="noopener noreferrer" target='_blank' href="https://www.linkedin.com/in/colin-lin-2001/"><FontAwesomeIcon color='#2867B2' icon={faLinkedin} size='2x'/></a> 
-                    <a rel="noopener noreferrer" target='_blank' href="https://github.com/l3n0ire"><FontAwesomeIcon icon={faGithub} size='2x' /></a>
+    <a rel="noopener noreferrer" target='_blank' href="https://www.facebook.com/colincool100"> <FontAwesomeIcon color= '#3b5998' icon={faFacebook} size='2x'/></a>
+    <a rel="noopener noreferrer" target='_blank' href="https://www.linkedin.com/in/colin-lin-2001/"><FontAwesomeIcon color='#2867B2' icon={faLinkedin} size='2x'/></a> 
+    <a rel="noopener noreferrer" target='_blank' href="https://github.com/l3n0ire"><FontAwesomeIcon icon={faGithub} size='2x' /></a>
                 </div>
                 <div className='contactInfo'>
                     <div className='line'>
@@ -44,15 +44,15 @@ class Index extends Component{
                         <p>647-470-9183</p>
                     </div>
                     <div className='line'>
-                        <FontAwesomeIcon  icon={faMapMarkerAlt} flip="horizontal" size='2x' />
+                        <FontAwesomeIcon  icon={faMapMarkerAlt}  size='2x' />
                         <p>Toronto, On</p>
                     </div>
                     <div className='line'>
-                        <FontAwesomeIcon  icon={faEnvelope} flip="horizontal" size='2x' />
+                        <FontAwesomeIcon  icon={faEnvelope}  size='2x' />
                         <p style={{fontSize:'1em'}}>colin.lin@mail.utoronto.ca</p>
                     </div>
                 </div>
-                <a href={resume} rel="noopener noreferrer" target='_blank'className="btn btn-primary">View Resume</a>
+                <a href={resume} rel="noopener noreferrer" target='_blank' className="btn btn-dark" >View Resume</a>
                 </div>
             </div>
             <div className="profileAboutCard">
@@ -147,7 +147,7 @@ class Index extends Component{
                                 COVID-19 pandemic while maintaing social distancing
                             </p>
                             <div className ='btnPair'>
-                                <a rel="noopener noreferrer" target='_blank' href='https://courieru.herokuapp.com/' className ='btn btn-primary'>View Demo</a>
+                                <a rel="noopener noreferrer" target='_blank' href='https://courieru.herokuapp.com/' className="btn btn-dark">View Demo</a>
                                 <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/courieru' className ='btn btn-secondary'>View Code</a>
                             </div>
                         </div>
@@ -166,7 +166,7 @@ class Index extends Component{
                                 Platform for new immigrants to read about and share their experiences of coming to Canada
                             </p>
                             <div className ='btnPair'>
-                                <a rel="noopener noreferrer" target='_blank' href='https://success-stories-of-new-canadians.netlify.app/' className ='btn btn-primary'>View Demo</a>
+                                <a rel="noopener noreferrer" target='_blank' href='https://success-stories-of-new-canadians.netlify.app/'className="btn btn-dark">View Demo</a>
                                 <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/PEAR-Impact-Project' className ='btn btn-secondary'>View Code</a>
                             </div>
                         </div>
@@ -184,7 +184,7 @@ class Index extends Component{
                                 as well as tutorials for beginners
                             </p>
                             <div className ='btnPair'>
-                                <a rel="noopener noreferrer" target='_blank' href='https://tftutsc.netlify.app/' className ='btn btn-primary'>View Demo</a>
+                                <a rel="noopener noreferrer" target='_blank' href='https://tftutsc.netlify.app/' className="btn btn-dark">View Demo</a>
                                 <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/TFT_UTSC' className ='btn btn-secondary'>View Code</a>
                             </div>
                         </div>
@@ -202,7 +202,7 @@ class Index extends Component{
                                 Platform to help students plan out and visualize their course load for upcoming semesters
                             </p>
                             <div className ='btnPair'>
-                                <a rel="noopener noreferrer" target='_blank' href='https://l3n0ire.github.io/TimetableBuilder/index.html' className ='btn btn-primary'>View Demo</a>
+                                <a rel="noopener noreferrer" target='_blank' href='https://l3n0ire.github.io/TimetableBuilder/index.html' className="btn btn-dark">View Demo</a>
                                 <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/TimetableBuilder' className ='btn btn-secondary'>View Code</a>
                             </div>
                         </div>

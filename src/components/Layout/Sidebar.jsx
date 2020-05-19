@@ -9,10 +9,11 @@ export default function Sidebar(props) {
     return (     
       <div style={{'display': props.display}}>
         <header style={{'background': props.colour}}>
-          <Link className="title" to="/" style={{'display': props.textdisplay}}>Colin Lin's <span style={{'color': props.accent}}>Profile</span></Link>
+          <Link className="title" to="/" >Colin Lin's <span style={{'color': props.accent}}>Profile</span></Link>
         </header>  
         <div className="menu-wrap" >
-          <input type="checkbox" className="toggler"/>
+          <label style={{fontSize:0}} htmlFor='dummy'>a</label>
+          <input id='dummy' type="checkbox" className="toggler"/>
             <div className="hamburger"><div></div></div>
               <div className="menu">
                 <div>
