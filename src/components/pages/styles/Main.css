@@ -177,17 +177,19 @@ body{
   display:flex;
 }
 .aboutBodyBoxHead svg{
-  height:100%
+  max-height:50%;
+  flex:1;
 }
 .aboutBodyBoxText {
-  padding-left:1em
+  padding-left:1em;
+  flex:3;
 }
 .aboutBodyBoxText h4{
   font-weight:bolder
 }
 
 .aboutBodyBoxText p{
-  font-size:1.2em;
+  font-size:1em;
   line-height: 1.5em;
 }
 .line{
@@ -196,9 +198,15 @@ body{
   margin-top: 1em;
 }
 .line p {
+  flex:11;
   margin-left:1em;
   width:60%;
   text-align:left
+}
+.line svg{
+  flex:4;
+  margin-left:0.2em;
+
 }
 .btnPair a{
   margin-right:1em;
@@ -225,6 +233,10 @@ body{
     text-align: center;
     width:50%;
     margin:auto;
+  }
+  .aboutBodyBoxText p{
+    font-size:1.2em;
+    flex:5;
   }
   
 
