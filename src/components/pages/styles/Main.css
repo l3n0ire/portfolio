@@ -101,8 +101,9 @@ body{
   height:65%
 }
 .profileCard img{
-  width:100%;
-  height:30%
+  width:15rem;
+  height:15rem;
+  border-radius:50%;
 }
 .profileCard p{
   margin-bottom:0;
@@ -280,11 +281,17 @@ body{
     display:flex;
   }
   .profileCard{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2);
     max-width: 19vw;
     text-align: center;
     padding:0em
 
+  }
+  .profileCard img{
+    margin-top:1rem;
+    width:12rem;
+    height:12rem;
+    border-radius:50%;
   }
   .profileAboutCard{
     box-shadow: 0 2px 12px 0px rgba(0, 0, 0, 0.2);
@@ -317,10 +324,6 @@ body{
     height:70%;
     padding:1.5em;
     text-align:start
-  }
-  .profileCard img{
-    width:100%;
-    height:30%
   }
   .profileCard{
     margin:0;

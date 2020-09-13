@@ -31,7 +31,7 @@ class Index extends Component{
                 <img src={profilePic} alt="oops"></img>
                 <div className="profileCardBody">
                 <h1>Colin Lin</h1>
-                <p>Web Developer</p>
+                <p>Software Developer</p>
                 <p>Co-op Computer Science University of Toronto</p>
                 <div className="profileIcons">
     <a rel="noopener noreferrer" target='_blank' href="https://www.facebook.com/colincool100"> <FontAwesomeIcon color= '#3b5998' icon={faFacebook} size='2x'/></a>
@@ -59,7 +59,7 @@ class Index extends Component{
                 <div className="aboutHeader">
                     <h1>About Me</h1>
                     <div className='aboutUnderline'></div>
-                <p>Hi, my name is Colin. I'm an aspiring web developer with experience in both frontend UX design and backend API development. 
+                <p>Hi, my name is Colin. I'm an aspiring software developer with experience in both frontend UX design and backend API development. 
                    I describe myself as someone who is ambitious, a quick learner, and has a passion for developing software with a positive social impact.
                 </p>
                 </div>
