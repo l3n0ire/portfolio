@@ -140,7 +140,7 @@ body{
 .aboutHeader{
   margin-top: 2em;
   width:100%;
-  height:30%;
+  height:35%;
   text-align:start
 }
 .aboutHeader h1{
@@ -157,7 +157,8 @@ body{
 }
 .aboutBody{
   width:100%;
-  height:70%;
+  height:65%;
+  margin-top: 2em;
   text-align:start
 }
 .aboutBody h1{
@@ -321,8 +322,9 @@ body{
   .aboutBody{
     background-color:#f6f6f6;
     width:100%;
-    height:70%;
+    height:65%;
     padding:1.5em;
+    margin-top:0;
     text-align:start
   }
   .profileCard{
