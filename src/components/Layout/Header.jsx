@@ -10,7 +10,7 @@ function Header(props) {
             <Link className="title" to="/">Colin Lin's <span style={{'color': props.accent}}>Portfolio</span></Link>
             <div className="link-container">
                 <Link className="link-style" to='/'>Home</Link>
-                <a rel="noopener noreferrer" className="link-style" href={resume} target='_blank'>Resume</a>
+                <a rel="noopener noreferrer" className="link-style" href={resume} download='Colin_Lin_Resume' target='_blank'>Resume</a>
                 <Link className="link-style" to='/contact'>Contact</Link>
             </div>
 

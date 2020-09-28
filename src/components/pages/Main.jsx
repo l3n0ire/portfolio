@@ -108,7 +108,7 @@ class Index extends Component{
                                 <FontAwesomeIcon color='#7b82de'  icon={faServer} size='3x' />
                                 <div className='aboutBodyBoxText'>
                                     <h4>Backend API</h4>
-                                    <p>Experience setting up Databases and developing backend APIs for fullstack applications </p>
+                                    <p>Experience setting up Databases and developing backend APIs using NodeJS and MongoDB </p>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,6 @@ class Index extends Component{
                                 <a href='/' className='btn btn-light'>MongoDB</a>
                                 <a href='/' className='btn btn-light'>Mapbox API</a>
                                 <a href='/' className='btn btn-light'>Bootstrap</a>
-
                                 <a href='/' className='btn btn-light'>ExpressJS</a>
                             </div>
                             <p>
@@ -208,6 +207,7 @@ class Index extends Component{
                             <div className='tags'>
                                 <a href='/' className='btn btn-light'>C#</a>
                                 <a href='/' className='btn btn-light'>Unity</a>
+                                <a href='/' className='btn btn-light'>OOP</a>
                                 <a href='/' className='btn btn-light'>ReactJS</a>
                             </div>
                             <p>
