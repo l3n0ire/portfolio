@@ -10,6 +10,7 @@ import physicsPlaygroundU from './images/physicsPlaygroundU.png'
 import manageU from './images/manageU.png'
 import recycleRush from './images/recycleRush.png'
 import passwordManager from './images/passwordManager.png'
+import animeUpdateTracker from './images/animeUpdateTracker.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -190,6 +191,7 @@ class Index extends Component{
                             <div className='tags'>
                                 <a href='/' className='btn btn-light'>Python</a>
                                 <a href='/' className='btn btn-light'>Heroku</a>
+                                <a href='/' className='btn btn-light'>MongoDB</a>
                                 <a href='/' className='btn btn-light'>discord.py</a>
                             </div>
                             <p>
@@ -197,6 +199,25 @@ class Index extends Component{
                             </p>
                             <div className ='btnPair'>
                                 <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/pythonDiscordBot' className ='btn btn-secondary'>View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="box">
+                        <img src={animeUpdateTracker} alt="oops"/>
+                        <div className="box-text">
+                            <h1>Anime Update Tracker</h1>
+                            <div className='tags'>
+                                <a href='/' className='btn btn-light'>Javascript</a>
+                                <a href='/' className='btn btn-light'>HTML CSS</a>
+                                <a href='/' className='btn btn-light'>Chrome Extension</a>
+                                <a href='/' className='btn btn-light'>Jikan API</a>
+                            </div>
+                            <p>
+                                Chrome Extension that helps users keep track of their favourite anime and pick up where they last left off
+                            </p>
+                            <div className ='btnPair'>
+                                <a rel="noopener noreferrer" target='_blank' href='https://chrome.google.com/webstore/detail/anime-update-tracker/dfcboajkdkgolnlambnobofpdmejbkmb' className="btn btn-dark">Download</a>
+                                <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/AnimeUpdateTracker' className ='btn btn-secondary'>View Code</a>
                             </div>
                         </div>
                     </div>
