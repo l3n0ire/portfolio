@@ -1,0 +1,35 @@
+.MoreInfo h1{
+    font-size: 2em;
+    font-weight: bolder;
+    margin:1em 0px;
+  }
+.MoreInfo p{
+    font-size: 1em;
+    line-height: 1.8em;
+}
+.MoreInfo img{
+    padding-bottom:0;
+    width:100%;
+    margin:0;
+    max-height: 80vh;
+}
+.MoreInfo{
+    width:90%;
+    margin:auto;
+}
+.MoreInfoContainer{
+  padding: 3vh 8vw;
+  padding-bottom: 10vh;
+  line-height: 2.5em;
+}
+@media only screen and (min-width: 768px) {
+    .MoreInfo p{
+        font-size: 1.3em;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .MoreInfo{
+        width:60%;
+       
+    }
+}

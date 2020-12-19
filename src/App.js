@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Header from './components/Layout/Header.jsx';
 import About from './components/pages/About.jsx';
 import Contact from './components/pages/Contact.jsx';
+import MoreInfo from './components/pages/MoreInfo.jsx';
 
 import Index from './components/pages/Main'
 import Footer from './components/Layout/Footer.jsx';
@@ -70,6 +71,7 @@ class App extends Component {
       <Route exact path="/" component={Index}/>
       <Route path="/about" component = {About}/>
       <Route path="/contact" component = {Contact}/>
+      <Route path="/moreinfo" component = {MoreInfo}/>
 
       <Footer></Footer>
 

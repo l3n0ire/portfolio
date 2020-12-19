@@ -19,6 +19,8 @@ import{faCoffee,faDesktop,faServer, faMobileAlt, faPhone, faMapMarkerAlt, faEnve
 import resume from './images/RESUME.pdf'
 import profilePic from'./images/profilePic.jpg'
 
+import {Link} from 'react-router-dom';
+
 class Index extends Component{
 
     render(){
@@ -162,6 +164,7 @@ class Index extends Component{
                             <div className ='btnPair'>
                                 <a rel="noopener noreferrer" target='_blank' href='https://courieru.herokuapp.com/' className="btn btn-dark">View Demo</a>
                                 <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/courieru' className ='btn btn-secondary'>View Code</a>
+                                <Link className="btn btn-dark" to={{ pathname: '/moreinfo', state: { title: 'CourierU'} }}>More Info</Link>
                             </div>
                         </div>
                     </div>
@@ -181,6 +184,7 @@ class Index extends Component{
                             <div className ='btnPair'>
                                 <a rel="noopener noreferrer" target='_blank' href='https://success-stories-of-new-canadians.netlify.app/'className="btn btn-dark">View Demo</a>
                                 <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/PEAR-Impact-Project' className ='btn btn-secondary'>View Code</a>
+                                <Link className="btn btn-dark" to={{ pathname: '/moreinfo', state: { title: 'Success Stories of New Canadians'} }}>More Info</Link>
                             </div>
                         </div>
                     </div>
@@ -199,6 +203,7 @@ class Index extends Component{
                             </p>
                             <div className ='btnPair'>
                                 <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/pythonDiscordBot' className ='btn btn-secondary'>View Code</a>
+                                <Link className="btn btn-dark" to={{ pathname: '/moreinfo', state: { title: 'ManageU'} }}>More Info</Link>
                             </div>
                         </div>
                     </div>
