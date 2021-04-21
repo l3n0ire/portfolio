@@ -55,5 +55,39 @@
         "date":"Sept 2020",
         "lastUpdated":"Dec 2020",
         "forWhat":"Personal Project for myself and my teammate"
+    },
+    "AnimeUpdateTracker":{
+        "title":"Anime Update Tracker",
+        "buzzWords":[
+            "HTML CSS JS",
+            "MAL API",
+            "Mapbox API",
+            "Chrome Extenstion"
+        ],
+        "descriptonShort":"Chrome Extension that helps users keep track of their favourite anime and pick up where they last left off",
+        "descriptionLong":"Anime Update Tracker is a personal project that I’ve developed to keep track of the episodes that I’ve watched. My goal was to create a Chrome extension that will automatically start tracking my progress in a show, when I start watching. I developed this chrome extension using JavaScript. I stored user data using the chrome’s storage feature and synchronized it with an online anime database called My Anime List. With this chrome extension, users could track their progress on all their chrome enabled devices, as well as the ability to resume where they last left off on supported sites. The result was an easy to use, cross platform anime tracker that is being used by over 160 active users across the world. Through Anime Update tracker, I was able to gain experience with asynchronous programming in JavaScript as well as experience with securing user data. This program was significant to me since it is the first project to have gained a large and active userbase.",
+        "projectLink":"https://chrome.google.com/webstore/detail/anime-update-tracker/dfcboajkdkgolnlambnobofpdmejbkmb",
+        "githubLink":"https://github.com/l3n0ire/AnimeUpdateTracker",
+        "imageName":"animeUpdateTracker",
+        "date":"Nov 2020",
+        "lastUpdated":"April 2021",
+        "forWhat":"Personal Project availible on the Chrome extension store"
+    },
+    "cdm":{
+        "title":"Software Developer at CDM",
+        "buzzWords":[
+            "HTML CSS JS",
+            "MAL API",
+            "Mapbox API",
+            "Chrome Extenstion"
+        ],
+        "descriptonShort":"",
+        "descriptionLong":"",
+        "projectLink":"",
+        "githubLink":"",
+        "imageName":"cdm",
+        "date":"Sept 2020 to April 2021",
+        "lastUpdated":"April 2021",
+        "forWhat":"Cineplex Digital Media (CDM) is a media company that designs digital signage solutions for businesses"
     }
 }

@@ -11,6 +11,7 @@ import manageU from './images/manageU.png'
 import recycleRush from './images/recycleRush.png'
 import passwordManager from './images/passwordManager.png'
 import animeUpdateTracker from './images/animeUpdateTracker.png'
+import cdm from './images/cdm.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -138,7 +139,31 @@ class Index extends Component{
 
 
             
-         
+        <h1>Work Experience</h1>
+        <div className="box-row">
+                    <div className="box">
+                        <img src={cdm} alt="oops"/>
+                        <div className="box-text">
+                            <h1>Software Developer at<br/> Cineplex Digital Media</h1>
+                            <div className='tags'>
+                                <a href='/' className='btn btn-light'>HTML CSS JS</a>
+                                <a href='/' className='btn btn-light'>NodeJS</a>
+                                <a href='/' className='btn btn-light'>Electron</a>
+                                <a href='/' className='btn btn-light'>React</a>
+                                <a href='/' className='btn btn-light'>TypeScript</a>
+                                <a href='/' className='btn btn-light'>JIRA Confluence</a>
+                            </div>
+                            <p>
+                            Led the development of custom web applications and digital signage for high-profile clients such as RBC, Citizens, and Scotiabank
+                            </p>
+                            <div className ='btnPair'>
+                                <a rel="noopener noreferrer" target='_blank' href='https://www.cdmexperiences.com/' className="btn btn-dark">View Company</a>
+                                <a rel="noopener noreferrer" target='_blank' href='https://www.linkedin.com/company/cineplexdigitalmedia/mycompany/' className ='btn btn-secondary'>Company Linkedin</a>
+                                <Link className="btn btn-dark" to={{ pathname: '/moreinfo', state: { title: 'cdm'} }}>More Info</Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
        
         <h1>My Projects</h1>
@@ -223,6 +248,7 @@ class Index extends Component{
                             <div className ='btnPair'>
                                 <a rel="noopener noreferrer" target='_blank' href='https://chrome.google.com/webstore/detail/anime-update-tracker/dfcboajkdkgolnlambnobofpdmejbkmb' className="btn btn-dark">Download</a>
                                 <a rel="noopener noreferrer" target='_blank' href='https://github.com/l3n0ire/AnimeUpdateTracker' className ='btn btn-secondary'>View Code</a>
+                                <Link className="btn btn-dark" to={{ pathname: '/moreinfo', state: { title: 'AnimeUpdateTracker'} }}>More Info</Link>
                             </div>
                         </div>
                     </div>
