@@ -17,7 +17,7 @@ images['cdm'] = cdm
 function MoreInfo(props) {
     const project = MoreInfoData[props.location.state.title]
     let longdesc = <p>{project.descriptionLong}</p>
-    if(props.location.state.title == 'cdm')
+    if(props.location.state.title === 'cdm')
         longdesc = <div>
             <p>As a Software developer at CDM, I led the development of custom web applications and digital signage for high-profile clients such as RBC, Citizens, and Scotiabank.</p>
             <p>My Primary responsibilities include:</p>
