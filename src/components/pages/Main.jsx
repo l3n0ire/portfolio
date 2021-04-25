@@ -21,6 +21,7 @@ import resume from './images/RESUME.pdf'
 import profilePic from'./images/profilePic.jpg'
 
 import {Link} from 'react-router-dom';
+import LazyLoad from 'react-lazyload';
 
 class Index extends Component{
 
@@ -171,7 +172,9 @@ class Index extends Component{
 
             <div className="box-row">
                     <div className="box">
+                    <LazyLoad>
                         <img src={courierU} alt="oops"/>
+                    </LazyLoad>
                         <div className="box-text">
                             <h1>CourierU</h1>
                             <div className='tags'>
@@ -194,7 +197,9 @@ class Index extends Component{
                         </div>
                     </div>
                     <div className="box">
+                    <LazyLoad>
                         <img src={successStories} alt="oops"/>
+                    </LazyLoad>
                         <div className="box-text">
                         <h1>Success Stories of New Canadians</h1>
                         <div className='tags'>
@@ -214,7 +219,9 @@ class Index extends Component{
                         </div>
                     </div>
                     <div className="box">
+                    <LazyLoad>
                         <img src={manageU} alt="oops"/>
+                    </LazyLoad>
                         <div className="box-text">
                             <h1>ManageU</h1>
                             <div className='tags'>
@@ -233,7 +240,9 @@ class Index extends Component{
                         </div>
                     </div>
                     <div className="box">
+                    <LazyLoad>
                         <img src={animeUpdateTracker} alt="oops"/>
+                    </LazyLoad>
                         <div className="box-text">
                             <h1>Anime Update Tracker</h1>
                             <div className='tags'>
@@ -253,7 +262,9 @@ class Index extends Component{
                         </div>
                     </div>
                     <div className="box">
+                    <LazyLoad>
                         <img src={physicsPlaygroundU} alt="oops"/>
+                    </LazyLoad>
                         <div className="box-text">
                             <h1>Physics Playground</h1>
                             <div className='tags'>
@@ -272,7 +283,9 @@ class Index extends Component{
                         </div>
                     </div>
                     <div className="box">
+                        <LazyLoad>
                         <img src={recycleRush} alt="oops"/>
+                        </LazyLoad>
                         <div className="box-text">
                             <h1>Recycle Rush</h1>
                             <div className='tags'>
@@ -291,7 +304,9 @@ class Index extends Component{
                         </div>
                     </div>
                     <div className="box">
+                        <LazyLoad>
                         <img src={passwordManager} alt="oops"/>
+                        </LazyLoad>
                         <div className="box-text">
                             <h1>Password Manager</h1>
                             <div className='tags'>
@@ -310,7 +325,9 @@ class Index extends Component{
                     <div className="box">
                         <img src={tftutsc} alt="oops"/>
                         <div className="box-text">
+                            <LazyLoad>
                             <h1>Teamfight UTSC</h1>
+                            </LazyLoad>
                             <div className='tags'>
                                 <a href='/' className='btn btn-light'>HTML CSS JS</a>
                                 <a href='/' className='btn btn-light'>ReactJS</a>
@@ -326,7 +343,9 @@ class Index extends Component{
                         </div>
                     </div>
                     <div className="box">
+                        <LazyLoad>
                         <img src={timetableBuilder} alt="oops"/>
+                        </LazyLoad>
                         <div className="box-text">
                             <h1>Timetable Builder</h1>
                             <div className='tags'>
